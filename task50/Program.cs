@@ -9,23 +9,23 @@
 // [1,7] -> такого числа в массиве нет
 
 
-void PrintElement(int [,] matrix, int i, int j)
+void PrintElement(int[,] matrix, int i, int j)
 {
-Console.WriteLine($"\nЭлемент массива с такой позицией содержит цифру {matrix[i-1, j-1]}");
+    Console.WriteLine($"\nЭлемент массива с такой позицией содержит цифру {matrix[i - 1, j - 1]}");
 }
 
 Console.Clear();
 
-int [,] matrix = new int [3,3];
-matrix [0,0] = 6;
-matrix [0,1] = 3;
-matrix [1,1] = 5;
-matrix [1,2] = 5;
-matrix [2,0] = 6;
-matrix [1,0] = 7;
-matrix [0,2] = 8;
-matrix [2,1] = 9;
-matrix [2,2] = 2;
+int[,] matrix = new int[3, 3];
+matrix[0, 0] = 6;
+matrix[0, 1] = 3;
+matrix[1, 1] = 5;
+matrix[1, 2] = 5;
+matrix[2, 0] = 6;
+matrix[1, 0] = 7;
+matrix[0, 2] = 8;
+matrix[2, 1] = 9;
+matrix[2, 2] = 2;
 
 Console.WriteLine("В этой программе вы можете найти любой элемент массива из трёх строк и трёх колонок по его позиции. Давайте скорее попробуем!");
 
